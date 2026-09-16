@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ashmit Saxena — Backend Developer &amp; Game Developer</title>
+  <meta name="description" content="Ashmit Saxena — Computer Science undergraduate at VIT Bhopal University (Gaming Technology). Full-stack web applications, AI-powered products, and augmented reality experiences." />
+  <meta name="theme-color" content="#141312" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#index" class="logo" data-scroll>Ashmit Saxena</a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#index" data-scroll data-nav="index">I. Index</a>
+        <a href="#work" data-scroll data-nav="work">II. Work</a>
+        <a href="#lab" data-scroll data-nav="lab">III. Lab</a>
+        <a href="#about" data-scroll data-nav="about">IV. About</a>
+      </nav>
+
+      <a href="#contact" class="bracket-btn header-cta" data-scroll data-nav="contact">[ Contact ]</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">[ Menu ]</button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="#index" data-scroll>I. Index</a>
+      <a href="#work" data-scroll>II. Work</a>
+      <a href="#lab" data-scroll>III. Lab</a>
+      <a href="#about" data-scroll>IV. About</a>
+      <a href="#contact" data-scroll>[ Contact ]</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ I. INDEX ============ -->
+    <section class="hero" id="index" data-section>
+      <div class="container hero-inner">
+        <p class="status-badge hero-item" style="--i:0">
+          <span class="dot" aria-hidden="true"></span>
+          B.Tech CSE — Gaming Technology // VIT Bhopal University
+        </p>
+
+        <div class="hero-title" data-parallax="-0.05">
+          <h1 class="hero-name hero-item" style="--i:1">Ashmit Saxena</h1>
+          <p class="hero-sub hero-item" style="--i:2">Backend Developer <span class="amp">&amp;</span> Game Developer</p>
+        </div>
+
+        <ol class="toc">
+          <li class="hero-item" style="--i:3"><a href="#work" data-scroll><span>Work &amp; Systems</span><i class="leader"></i><b>II</b></a></li>
+          <li class="hero-item" style="--i:4"><a href="#lab" data-scroll><span>Lab &amp; Experiments</span><i class="leader"></i><b>III</b></a></li>
+          <li class="hero-item" style="--i:5"><a href="#about" data-scroll><span>About &amp; Philosophy</span><i class="leader"></i><b>IV</b></a></li>
+          <li class="hero-item" style="--i:6"><a href="#chronology" data-scroll><span>Experience &amp; Education</span><i class="leader"></i><b>V</b></a></li>
+          <li class="hero-item" style="--i:7"><a href="#skills" data-scroll><span>Tech Index</span><i class="leader"></i><b>VI</b></a></li>
+          <li class="hero-item" style="--i:8"><a href="#contact" data-scroll><span>Transmission / Contact</span><i class="leader"></i><b>VII</b></a></li>
+        </ol>
+
+        <div class="hero-foot hero-item" style="--i:9">
+          <span>V. MMXXVI</span>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 3.2A9 9 0 1 0 20.8 15 7.2 7.2 0 0 1 15.5 3.2Z" fill="currentColor"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ II. WORK ============ -->
+    <section class="section" id="work" data-section>
+      <div class="container">
+        <header class="sec-head">
+          <div class="sec-meta" data-reveal>
+            <span><em class="accent">[ Folio No. 02 ]</em> <span class="faint">—</span> Catalog: 05 Entries</span>
+            <span class="hide-sm">Sec. II // Production &amp; Research</span>
+          </div>
+          <h2 class="sec-title" data-reveal style="--i:1">II. Selected Work</h2>
+          <p class="sec-lede" data-reveal style="--i:2">Full-stack systems, AI-powered products, and augmented reality builds.</p>
+          <hr class="rule" data-reveal />
+        </header>
+
+        <!-- Index table -->
+        <div class="index-table" data-stagger>
+          <div class="index-head" data-reveal>
+            <span>Indexical Table of Recorded Systems</span>
+            <span class="hide-sm">Stack / Classification</span>
+          </div>
+
+          <a class="index-row is-featured" href="#mockmate" data-scroll data-reveal style="--i:1">
+            <span class="ir-num">01 //</span>
+            <span class="ir-name">MockMate</span>
+            <span class="ir-desc">— AI Mock Interview Platform</span>
+            <i class="leader"></i>
+            <span class="tag">React / Node.js / PostgreSQL</span>
+            <span class="ir-class">AI · Full-Stack</span>
+            <span class="ir-roman">[ I ]</span>
+          </a>
+          <a class="index-row" href="#mentorboard" data-scroll data-reveal style="--i:2">
+            <span class="ir-num">02 //</span>
+            <span class="ir-name">MentorBoard</span>
+            <span class="ir-desc">— Internship Management &amp; Kanban</span>
+            <i class="leader"></i>
+            <span class="tag">React / Express / MongoDB</span>
+            <span class="ir-class">Full-Stack</span>
+            <span class="ir-roman">[ II ]</span>
+          </a>
+          <a class="index-row" href="#smoothai" data-scroll data-reveal style="--i:3">
+            <span class="ir-num">03 //</span>
+            <span class="ir-name">Smooth AI</span>
+            <span class="ir-desc">— Generative AI Interface</span>
+            <i class="leader"></i>
+            <span class="tag">React / TypeScript / AI APIs</span>
+            <span class="ir-class">AI · Frontend</span>
+            <span class="ir-roman">[ III ]</span>
+          </a>
+          <a class="index-row" href="#ecoverse" data-scroll data-reveal style="--i:4">
+            <span class="ir-num">04 //</span>
+            <span class="ir-name">EcoVerse AR</span>
+            <span class="ir-desc">— Educational Augmented Reality</span>
+            <i class="leader"></i>
+            <span class="tag">Unity / C# / Vuforia</span>
+            <span class="ir-class">AR · Education</span>
+            <span class="ir-roman">[ IV ]</span>
+          </a>
+          <a class="index-row" href="#arcard" data-scroll data-reveal style="--i:5">
+            <span class="ir-num">05 //</span>
+            <span class="ir-name">AR Business Card</span>
+            <span class="ir-desc">— Interactive Card Overlay</span>
+            <i class="leader"></i>
+            <span class="tag">Unity / C# / Vuforia</span>
+            <span class="ir-class">AR · Unity</span>
+            <span class="ir-roman">[ V ]</span>
+          </a>
+        </div>
+
+        <!-- Featured exhibit -->
+        <article class="exhibit" id="mockmate" data-reveal>
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+
+          <div class="exhibit-bar">
+            <span><b class="accent">[ Exhibit // 01.A ]</b> <span class="faint">/</span> Featured System Specification</span>
+            <span class="hide-sm">Status: Built &amp; Documented <span class="dot"></span></span>
+          </div>
+
+          <div class="exhibit-grid">
+            <div class="exhibit-main">
+              <p class="kicker">Discipline: AI &amp; Full-Stack</p>
+              <h3 class="exhibit-title">MockMate: AI-Powered Mock Interview Platform</h3>
+
+              <p class="exhibit-copy"><b>The Brief:</b> An interview preparation platform that helps users improve their technical and behavioral interview skills — generating interview questions, evaluating responses, and providing actionable feedback.</p>
+              <p class="exhibit-copy"><b>The System:</b> Google Gemini generates role-specific questions and analyzes answers. A Node.js + Express API handles sessions, Firebase manages authentication, and Prisma persists interview history to PostgreSQL.</p>
+
+              <div class="spec-box">
+                <p class="spec-head">Stack Composition</p>
+                <div class="spec-cells">
+                  <div><span>Client</span><b>React</b><small>TypeScript</small></div>
+                  <div><span>Server</span><b>Node.js</b><small>Express · REST</small></div>
+                  <div><span>Data</span><b>PostgreSQL</b><small>Prisma ORM</small></div>
+                  <div><span>AI / Auth</span><b>Gemini</b><small>Firebase Auth</small></div>
+                </div>
+              </div>
+
+              <div class="exhibit-actions">
+                <a class="btn-outline" href="https://github.com/ashmittt08/MockMate" target="_blank" rel="noopener">GitHub Repo <span class="arrow">↗</span></a>
+              </div>
+            </div>
+
+            <div class="exhibit-side">
+              <div class="manifest">
+                <p class="panel-label">Feature Manifest</p>
+                <ol>
+                  <li><span>01</span>AI-generated interview questions</li>
+                  <li><span>02</span>Customized to job role &amp; seniority</li>
+                  <li><span>03</span>AI-based answer evaluation</li>
+                  <li><span>04</span>Communication &amp; domain-accuracy scoring</li>
+                  <li><span>05</span>Firebase authentication</li>
+                  <li><span>06</span>Persistent interview history</li>
+                </ol>
+              </div>
+
+              <div class="terminal" data-terminal>
+                <div class="terminal-bar"><span>Session Flow // mockmate</span><span>Illustrative</span></div>
+                <div class="terminal-body">
+                  <p class="t-cmd">$ mockmate session --role=backend --level=junior</p>
+                  <p>&gt;&gt; [AUTH] Firebase session verified</p>
+                  <p>&gt;&gt; [GENERATE] Gemini → role-specific question set</p>
+                  <p>&gt;&gt; [CAPTURE] candidate response received</p>
+                  <p>&gt;&gt; [EVALUATE] communication · domain accuracy</p>
+                  <p>&gt;&gt; [PERSIST] Prisma → PostgreSQL :: history</p>
+                  <p class="t-strong">&gt;&gt; [FEEDBACK] actionable report ready</p>
+                  <p class="t-prompt">&gt; awaiting input <span class="cursor"></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Secondary folios -->
+        <div class="sub-head" data-reveal>
+          <h3>Secondary Project Folios &amp; Schematics</h3>
+          <span class="bracket">[ Archival Record ]</span>
+        </div>
+
+        <div class="folio-grid" data-stagger>
+          <article class="folio" id="mentorboard" data-reveal style="--i:0">
+            <div class="folio-top"><span>Sec. II // 02</span><span>Full-Stack</span></div>
+            <h4 class="folio-title">MentorBoard</h4>
+            <p class="folio-stack">React / TypeScript / Node.js / Express / MongoDB / JWT / Tailwind</p>
+            <p class="folio-copy">Collaborative internship management platform featuring authentication, role-based access, Kanban task management, and analytics.</p>
+            <ul class="chips">
+              <li>Drag-and-drop Kanban</li>
+              <li>Mentor / intern roles</li>
+              <li>Role-based authorization</li>
+              <li>Analytics dashboard</li>
+              <li>JWT auth</li>
+              <li>REST APIs</li>
+            </ul>
+            <div class="folio-foot">
+              <a href="https://mentor-board-zeta.vercel.app" target="_blank" rel="noopener">[ Live Deployment ] <span class="arrow">↗</span></a>
+              <a href="https://github.com/ashmittt08/MentorBoard" target="_blank" rel="noopener">[ GitHub ] <span class="arrow">↗</span></a>
+            </div>
+          </article>
+
+          <article class="folio" id="smoothai" data-reveal style="--i:1">
+            <div class="folio-top"><span>Sec. II // 03</span><span>AI · Frontend</span></div>
+            <h4 class="folio-title">Smooth AI</h4>
+            <p class="folio-stack">React / TypeScript / AI APIs / Tailwind CSS</p>
+            <p class="folio-copy">AI-powered web application focused on fast and intuitive generative AI interactions.</p>
+            <ul class="chips">
+              <li>Generative AI prompt pipeline</li>
+              <li>Real-time response rendering</li>
+              <li>Stateful session history</li>
+              <li>Prompt presets</li>
+              <li>Dark interface</li>
+            </ul>
+            <div class="folio-foot">
+              <a href="https://smoothai-nine.vercel.app" target="_blank" rel="noopener">[ Live Deployment ] <span class="arrow">↗</span></a>
+              <a href="https://github.com/ashmittt08/smooth.ai" target="_blank" rel="noopener">[ GitHub ] <span class="arrow">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ III. LAB ============ -->
+    <section class="section" id="lab" data-section>
+      <div class="container">
+        <header class="sec-head">
+          <div class="sec-meta" data-reveal>
+            <span>Folio Section // 03</span>
+            <span class="accent hide-sm">[ Engine: Unity · Vuforia SDK ]</span>
+          </div>
+          <h2 class="sec-title" data-reveal style="--i:1">III. Lab &amp; Experiments</h2>
+          <p class="sec-lede" data-reveal style="--i:2">Augmented reality, Unity, and interactive 3D — the gaming technology side of the folio.</p>
+        </header>
+
+        <div class="lab-bar" data-reveal>
+          <span class="faint">Index Filter:</span>
+          <span class="chip-solid">[ AR / Unity (2) ]</span>
+          <span class="lab-status"><span class="dot"></span> Toolchain: Unity · C# · Vuforia · Blender</span>
+        </div>
+
+        <div class="lab-grid" data-stagger>
+          <article class="lab-card" id="ecoverse" data-reveal style="--i:0">
+            <div class="lab-top"><b>EXP-01</b><span>AR / Unity / Education</span></div>
+            <figure class="lab-fig">
+              <span class="fig-tag">AR</span>
+              <div class="fig-media" data-parallax="0.04">
+                <svg viewBox="0 0 400 240" role="img" aria-label="Schematic: an image target on a surface projecting a floating wireframe globe">
+                  <g class="fig-grid">
+                    <path d="M40 200 L360 200 M60 180 L340 180 M80 160 L320 160" />
+                    <path d="M40 200 L80 160 M120 200 L140 160 M200 200 L200 160 M280 200 L260 160 M360 200 L320 160" />
+                  </g>
+                  <path class="fig-target" d="M80 160 L320 160 L360 200 L40 200 Z" />
+                  <path class="fig-bracket" d="M70 172 L70 162 L82 162 M318 162 L330 162 L330 172 M44 190 L44 200 L56 200 M344 200 L356 200 L356 190" />
+                  <line class="fig-scan" x1="60" y1="180" x2="340" y2="180" />
+                  <g class="fig-proj">
+                    <line x1="140" y1="170" x2="176" y2="118" />
+                    <line x1="260" y1="170" x2="224" y2="118" />
+                    <line x1="200" y1="176" x2="200" y2="126" />
+                  </g>
+                  <g class="fig-float">
+                    <circle cx="200" cy="80" r="42" />
+                    <ellipse cx="200" cy="80" rx="18" ry="42" />
+                    <ellipse cx="200" cy="80" rx="34" ry="42" />
+                    <ellipse cx="200" cy="80" rx="42" ry="14" />
+                    <line x1="158" y1="80" x2="242" y2="80" />
+                  </g>
+                  <text x="16" y="24">IMG_TARGET // TRACKED</text>
+                  <text x="384" y="24" text-anchor="end">MODEL: 3D / BLENDER</text>
+                </svg>
+              </div>
+              <figcaption>Fig. 03.1 // Image target → 3D model</figcaption>
+            </figure>
+            <h3 class="lab-title">EcoVerse AR</h3>
+            <p class="lab-copy">Educational augmented reality application built with Unity and Vuforia that turns physical images into interactive 3D learning experiences.</p>
+            <ul class="tags">
+              <li>Unity</li><li>C#</li><li>Vuforia SDK</li><li>Blender</li>
+            </ul>
+            <ul class="lab-features">
+              <li>Image target detection &amp; Vuforia tracking</li>
+              <li>Interactive 3D models with Blender-created assets</li>
+              <li>Touch interaction, audio cues &amp; visual overlays</li>
+            </ul>
+            <div class="lab-foot">
+              <a href="https://github.com/ashmittt08/EcoVerse_ar" target="_blank" rel="noopener">[ GitHub Repo ] <span class="arrow">↗</span></a>
+              <span class="faint">Mobile AR</span>
+            </div>
+          </article>
+
+          <article class="lab-card" id="arcard" data-reveal style="--i:1">
+            <div class="lab-top"><b>EXP-02</b><span>AR / Unity</span></div>
+            <figure class="lab-fig">
+              <span class="fig-tag">AR</span>
+              <div class="fig-media" data-parallax="0.04">
+                <svg viewBox="0 0 400 240" role="img" aria-label="Schematic: a physical business card with floating LinkedIn, GitHub and email overlays">
+                  <g class="fig-grid">
+                    <path d="M20 214 L380 214" />
+                  </g>
+                  <path class="fig-target" d="M96 150 L304 150 L336 206 L64 206 Z" />
+                  <g class="fig-lines">
+                    <line x1="110" y1="166" x2="190" y2="166" />
+                    <line x1="104" y1="178" x2="160" y2="178" />
+                    <line x1="98" y1="190" x2="176" y2="190" />
+                    <rect x="248" y="160" width="46" height="34" />
+                  </g>
+                  <line class="fig-scan" x1="90" y1="178" x2="310" y2="178" />
+                  <g class="fig-proj">
+                    <line x1="140" y1="160" x2="120" y2="100" />
+                    <line x1="200" y1="160" x2="200" y2="92" />
+                    <line x1="260" y1="160" x2="280" y2="100" />
+                  </g>
+                  <g class="fig-float">
+                    <rect x="94" y="56" width="52" height="44" />
+                    <rect x="174" y="48" width="52" height="44" />
+                    <rect x="254" y="56" width="52" height="44" />
+                  </g>
+                  <g class="fig-icons">
+                    <text x="120" y="84" text-anchor="middle">in</text>
+                    <text x="200" y="76" text-anchor="middle">&lt;/&gt;</text>
+                    <text x="280" y="84" text-anchor="middle">@</text>
+                  </g>
+                  <text x="16" y="24">CARD_TARGET // RECOGNISED</text>
+                  <text x="384" y="24" text-anchor="end">OVERLAY: 03 LINKS</text>
+                </svg>
+              </div>
+              <figcaption>Fig. 03.2 // Card target → link overlay</figcaption>
+            </figure>
+            <h3 class="lab-title">AR Business Card</h3>
+            <p class="lab-copy">Augmented reality business card that overlays interactive digital content and social links onto a physical card.</p>
+            <ul class="tags">
+              <li>Unity</li><li>C#</li><li>Vuforia</li>
+            </ul>
+            <ul class="lab-features">
+              <li>Image target recognition &amp; mobile camera tracking</li>
+              <li>Interactive 3D elements</li>
+              <li>LinkedIn, GitHub &amp; email interactions</li>
+            </ul>
+            <div class="lab-foot">
+              <a href="https://github.com/ashmittt08/BusinessCard_Ar" target="_blank" rel="noopener">[ GitHub Repo ] <span class="arrow">↗</span></a>
+              <span class="faint">Mobile AR</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="repo-index">
+          <h3 class="repo-title" data-reveal>Lab Toolchain Index</h3>
+          <ol data-stagger>
+            <li data-reveal style="--i:0"><span>01 // Image Target Tracking</span><i class="leader"></i><b>VUFORIA.01</b></li>
+            <li data-reveal style="--i:1"><span>02 // Interaction &amp; Scene Scripting</span><i class="leader"></i><b>CSHARP.02</b></li>
+            <li data-reveal style="--i:2"><span>03 // 3D Asset Modelling</span><i class="leader"></i><b>BLENDER.03</b></li>
+            <li data-reveal style="--i:3"><span>04 // Real-Time 3D &amp; AR Builds</span><i class="leader"></i><b>UNITY.04</b></li>
+          </ol>
+          <div class="center" data-reveal>
+            <a class="btn-outline" href="https://github.com/ashmittt08" target="_blank" rel="noopener">[ Browse Full Repository Archive ] <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ IV. ABOUT ============ -->
+    <section class="section" id="about" data-section>
+      <div class="container">
+        <header class="sec-head about-head">
+          <div>
+            <p class="sec-meta-single" data-reveal>Section 04 // Archival Folio</p>
+            <h2 class="sec-title" data-reveal style="--i:1">IV. About &amp; Philosophy</h2>
+          </div>
+          <div class="specimen" data-reveal style="--i:2">
+            <span class="specimen-badge">Specimen No. 23-27</span>
+            <span class="specimen-loc">Record Loc: 23.2599° N, 77.4126° E</span>
+          </div>
+        </header>
+        <hr class="rule" data-reveal />
+
+        <div class="about-grid">
+          <div class="about-main">
+            <figure class="declaration" data-reveal>
+              <span class="legend">Declaration // 01</span>
+              <blockquote>“Working at the intersection of software engineering, artificial intelligence, and interactive technology.”</blockquote>
+              <figcaption><span>Print Protocol</span><span>Systems • AI • Interactive</span></figcaption>
+            </figure>
+
+            <div class="block">
+              <p class="block-label" data-reveal><span>02 // Narrative Bio</span><i></i></p>
+              <p class="bio-serif" data-reveal>I'm a Computer Science undergraduate at VIT Bhopal University, specializing in Gaming Technology. My interests sit at the intersection of software engineering, artificial intelligence, and interactive technology.</p>
+              <p class="bio-mono" data-reveal>I enjoy building full-stack applications with React, TypeScript, Node.js, Express, and PostgreSQL, while also experimenting with generative AI and LLM-powered products. My background in gaming technology has also led me to work with Unity, C#, Vuforia, and 3D/AR development.</p>
+            </div>
+
+            <div class="block">
+              <p class="block-label" data-reveal><span>03 // Engineering Tenets</span><i></i></p>
+              <div class="tenets" data-stagger>
+                <article class="tenet" data-reveal style="--i:0">
+                  <header><h4>I. Understand the Problem</h4><span>[ 01 ]</span></header>
+                  <p>Before writing code, figure out who the product is for and what actually needs solving. Everything after depends on getting this right.</p>
+                </article>
+                <article class="tenet" data-reveal style="--i:1">
+                  <header><h4>II. Design the System</h4><span>[ 02 ]</span></header>
+                  <p>Data models, API boundaries, authentication, and the flow between client and server — planned so the pieces fit before they are built.</p>
+                </article>
+                <article class="tenet" data-reveal style="--i:2">
+                  <header><h4>III. Build, Then Improve</h4><span>[ 03 ]</span></header>
+                  <p>Ship a working version, learn from it, and keep refining. A deployed project teaches more than a perfect plan.</p>
+                </article>
+              </div>
+            </div>
+
+            <p class="pull-quote" data-reveal>"Understand the problem, design the system, build the product — and continuously improve it."</p>
+          </div>
+
+          <aside class="about-side">
+            <div class="chronology" id="chronology">
+              <div class="side-head" data-reveal><span>V. Chronology // Experience &amp; Education</span></div>
+
+              <ol class="timeline" data-stagger>
+                <li class="is-current" data-reveal style="--i:0">
+                  <p class="tl-date">Independent // Bhopal, India</p>
+                  <h4>Full-Stack &amp; AI Developer</h4>
+                  <p class="tl-desc">Building and deploying web applications combining React, Node.js, Express, PostgreSQL, and generative AI.</p>
+                  <p class="tl-notes">Built MockMate • Developed MentorBoard • Built Smooth AI</p>
+                </li>
+                <li data-reveal style="--i:1">
+                  <p class="tl-date">Independent // AR Track</p>
+                  <h4>AR &amp; Unity Developer</h4>
+                  <p class="tl-desc">Augmented reality applications using Unity, Vuforia SDK, C#, and Blender.</p>
+                  <p class="tl-notes">Built EcoVerse AR • Built AR Business Card • Created &amp; integrated 3D assets • Implemented image target tracking</p>
+                </li>
+                <li data-reveal style="--i:2">
+                  <p class="tl-date">2023 — 2027</p>
+                  <h4>B.Tech, Computer Science &amp; Engineering</h4>
+                  <p class="tl-desc">VIT Bhopal University — Specialization in Gaming Technology.</p>
+                  <p class="tl-notes">Backend Development • Data Analysis • Game Development</p>
+                </li>
+              </ol>
+            </div>
+
+            <div class="focus-panel" data-reveal>
+              <div class="side-head"><span>Primary Areas</span><span class="faint">03</span></div>
+              <ul>
+                <li><span>Full-Stack Development</span><i class="leader"></i><b>A</b></li>
+                <li><span>Artificial Intelligence</span><i class="leader"></i><b>B</b></li>
+                <li><span>Game Development</span><i class="leader"></i><b>C</b></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        <!-- VI. Tech index -->
+        <div class="skills" id="skills">
+          <div class="skills-head" data-reveal>
+            <span>VI. Specimen // Tech Index</span>
+            <span class="faint">Rev. 2026</span>
+          </div>
+
+          <div class="skills-grid" data-stagger>
+            <div class="skill-group" data-reveal style="--i:0">
+              <p class="sg-head"><span>A. Languages</span><span>Index No.</span></p>
+              <ul>
+                <li><span>C++</span><i class="leader"></i><b>01.01</b></li>
+                <li><span>Python</span><i class="leader"></i><b>01.02</b></li>
+                <li><span>JavaScript</span><i class="leader"></i><b>01.03</b></li>
+                <li><span>TypeScript</span><i class="leader"></i><b>01.04</b></li>
+                <li><span>SQL</span><i class="leader"></i><b>01.05</b></li>
+              </ul>
+            </div>
+
+            <div class="skill-group" data-reveal style="--i:1">
+              <p class="sg-head"><span>B. Backend</span><span>Index No.</span></p>
+              <ul>
+                <li><span>Node.js</span><i class="leader"></i><b>02.01</b></li>
+                <li><span>Express.js</span><i class="leader"></i><b>02.02</b></li>
+                <li><span>REST APIs</span><i class="leader"></i><b>02.03</b></li>
+                <li><span>JWT Authentication</span><i class="leader"></i><b>02.04</b></li>
+              </ul>
+            </div>
+
+            <div class="skill-group" data-reveal style="--i:2">
+              <p class="sg-head"><span>C. Databases</span><span>Index No.</span></p>
+              <ul>
+                <li><span>PostgreSQL</span><i class="leader"></i><b>03.01</b></li>
+                <li><span>MongoDB</span><i class="leader"></i><b>03.02</b></li>
+                <li><span>Prisma ORM</span><i class="leader"></i><b>03.03</b></li>
+                <li><span>Firebase / Firestore</span><i class="leader"></i><b>03.04</b></li>
+              </ul>
+            </div>
+
+            <div class="skill-group" data-reveal style="--i:3">
+              <p class="sg-head"><span>D. AR &amp; Game Dev</span><span>Index No.</span></p>
+              <ul>
+                <li><span>Unity</span><i class="leader"></i><b>04.01</b></li>
+                <li><span>C#</span><i class="leader"></i><b>04.02</b></li>
+                <li><span>Vuforia SDK</span><i class="leader"></i><b>04.03</b></li>
+                <li><span>Blender</span><i class="leader"></i><b>04.04</b></li>
+                <li><span>3D Development</span><i class="leader"></i><b>04.05</b></li>
+                <li><span>Augmented Reality</span><i class="leader"></i><b>04.06</b></li>
+              </ul>
+            </div>
+
+            <div class="skill-group" data-reveal style="--i:4">
+              <p class="sg-head"><span>E. AI</span><span>Index No.</span></p>
+              <ul>
+                <li><span>Google Gemini</span><i class="leader"></i><b>05.01</b></li>
+                <li><span>Generative AI APIs</span><i class="leader"></i><b>05.02</b></li>
+                <li><span>LLM Integrations</span><i class="leader"></i><b>05.03</b></li>
+                <li><span>Prompt Engineering</span><i class="leader"></i><b>05.04</b></li>
+                <li><span>AI App Workflows</span><i class="leader"></i><b>05.05</b></li>
+              </ul>
+            </div>
+
+            <div class="skill-group" data-reveal style="--i:5">
+              <p class="sg-head"><span>F. Frontend &amp; Tools</span><span>Index No.</span></p>
+              <ul>
+                <li><span>React</span><i class="leader"></i><b>06.01</b></li>
+                <li><span>Tailwind CSS</span><i class="leader"></i><b>06.02</b></li>
+                <li><span>Git / GitHub</span><i class="leader"></i><b>06.03</b></li>
+                <li><span>Postman</span><i class="leader"></i><b>06.04</b></li>
+                <li><span>Vercel / Render</span><i class="leader"></i><b>06.05</b></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VII. CONTACT ============ -->
+    <section class="section contact" id="contact" data-section>
+      <div class="container">
+        <header class="sec-head">
+          <div class="sec-meta" data-reveal>
+            <span>Section 07 // Transmission</span>
+            <span class="hide-sm">Loc: India</span>
+          </div>
+          <h2 class="sec-title" data-reveal style="--i:1">VII. Transmission &amp; Contact</h2>
+          <p class="sec-lede" data-reveal style="--i:2">For collaboration, projects, or a conversation about backend systems and game development.</p>
+          <hr class="rule" data-reveal />
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-main" data-reveal>
+            <p class="kicker">Primary Channel // Email</p>
+            <a class="contact-email" href="mailto:saxenaashmit85@gmail.com">saxenaashmit85@gmail.com</a>
+            <button class="copy-btn" type="button" data-copy="saxenaashmit85@gmail.com">[ Copy Address ]</button>
+          </div>
+
+          <div class="transmit" data-reveal style="--i:1">
+            <div class="side-head"><span class="accent">Transmission // Connect</span><span class="faint">Open Link</span></div>
+            <div class="transmit-links">
+              <a href="mailto:saxenaashmit85@gmail.com"><span>[ Email ]</span><span class="arrow">↗</span></a>
+              <a href="https://github.com/ashmittt08" target="_blank" rel="noopener"><span>[ GitHub ]</span><span class="arrow">↗</span></a>
+              <a href="https://linkedin.com/in/ashmit-saxena08" target="_blank" rel="noopener"><span>[ LinkedIn ]</span><span class="arrow">↗</span></a>
+              <a href="#index" data-scroll><span>[ Index ]</span><span class="arrow">↑</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="colophon" data-reveal>
+          <span>¶ Set in EB Garamond &amp; Space Mono</span>
+          <span class="accent">♦ End of Folio ♦</span>
+          <a href="#index" data-scroll>Next → I. Index (Page 01)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>V. MMXXVI — Folio &amp; Archive Index</span>
+      <nav aria-label="Footer">
+        <a href="https://github.com/ashmittt08" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/ashmit-saxena08" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#index" data-scroll class="strong">Top ↑</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
