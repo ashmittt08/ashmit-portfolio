@@ -1357,3 +1357,79 @@ a:hover .arrow { transform: translate(2px, -2px); }
   }
   .js [data-reveal], .js .hero-item { opacity: 1; transform: none; }
 }
+
+/* =========================================================
+   VII. CERTIFICATIONS
+   ========================================================= */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.cert {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 16px;
+  border: 1px solid var(--line);
+  background: rgba(26, 24, 23, 0.5);
+  transition: border-color 0.4s var(--ease), background-color 0.4s var(--ease), transform 0.5s var(--ease);
+}
+.cert:hover {
+  border-color: var(--peach-dim);
+  background: var(--bg-panel);
+  transform: translateY(-3px);
+}
+
+.cert-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.cert-stamp {
+  padding: 0 7px;
+  border: 1px solid var(--red);
+  color: var(--red);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  transform: rotate(-2.5deg);
+}
+
+.cert-title {
+  margin-top: 16px;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 1.12;
+  color: var(--peach);
+}
+.cert-issuer {
+  margin-top: 8px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+.cert .tags { margin-bottom: 22px; }
+
+.cert-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--peach);
+  transition: color 0.3s var(--ease);
+}
+.cert-link:hover { color: var(--red); }
